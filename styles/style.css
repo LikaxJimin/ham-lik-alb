@@ -61,8 +61,8 @@ body {
     font-size: 30px;
 
 }
-nav {position: absolute;
-    padding: 15px 15px 10px 20px;
+nav {position: relative;
+    padding: 40px;
     cursor: pointer;
 }
 nav.visited {
