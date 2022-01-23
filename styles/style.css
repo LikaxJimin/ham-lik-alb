@@ -86,7 +86,7 @@ nav.visited {
 
 }
 .buttons {
-    display: flex;
+    display: relative;
     flex-direction: column;
     justify-content: space-around;
     width: 70vh;
@@ -107,7 +107,7 @@ nav.visited {
 }
 
 .show-button {
-    position: absolute;
+    position: relative;
     color: white;
     display: flex;
     justify-content: center;
