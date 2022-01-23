@@ -51,7 +51,8 @@ body {
 }
 
 .title-city {
-    font-size: 190px;
+    font-size: 180px;
+    padding: 20px;
 }
 .country-code {
     display: inline 
