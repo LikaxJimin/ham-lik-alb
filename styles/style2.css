@@ -74,7 +74,7 @@ body {
     cursor: pointer;
 }
 nav {position: absolute;
-    padding: 15px 15px 10px 20px;
+    padding: 30px;
     cursor: pointer;
 }
 nav.visited {
