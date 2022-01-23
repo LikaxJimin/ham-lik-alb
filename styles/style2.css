@@ -109,7 +109,10 @@ nav.visited {
   
 
 }
+.name { 
+    font-size: 30px;
 
+}
 a:hover{ 
     text-decoration: underline;
     cursor: pointer;
