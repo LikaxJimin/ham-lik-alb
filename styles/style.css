@@ -54,7 +54,7 @@ body {
 .title-city {
     font-size: 160px;
     padding: 40px;
-    text-align: center;
+    margin-top:300px ;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 .country-code {
