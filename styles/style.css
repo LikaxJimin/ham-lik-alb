@@ -11,15 +11,7 @@ body {
     font-family: Unica;
     background-color: black;
 }
-h1 {
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 100px;
-   
-    text-align: center;
-    text-transform: uppercase;
-    text-rendering: optimizeLegibility;
-    
-}
+
 .container {
     width: 100%;
     font-family: Unica;
@@ -62,6 +54,7 @@ h1 {
 .title-city {
     font-size: 160px;
     padding: 40px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 .country-code {
     display: inline 
