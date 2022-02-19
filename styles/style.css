@@ -11,6 +11,23 @@ body {
     font-family: Unica;
     background-color: black;
 }
+/* $color: darkkhaki;
+$color2: crimson;
+$transparent: rgba(0, 0, 0, 0); */
+
+HTML {
+  height: 100%;
+  }
+BODY {
+  background: linear-gradient(-45deg);
+    /* transparent: 50%;
+    color: 50%; color 60%; 
+    transparent 60%; */
+      
+  background-size: 2em 2em;
+  background-color: khaki;
+  font: italic 40px/2 'Trebuchet MS', Verdana, sans-serif;
+  }
 
 .container {
     width: 100%;
