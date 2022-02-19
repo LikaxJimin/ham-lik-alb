@@ -84,7 +84,7 @@ h1 {
     font-size: 30px;
 
 }
-nav {position: absolute;
+nav {position: relative;
   
     cursor: pointer;
 }
