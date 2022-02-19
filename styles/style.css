@@ -84,7 +84,7 @@ h1 {
 }
 .contacts {
     font-size: 30px;
-
+    margin: 10px;
 }
 nav {position: relative;
     margin: 10px;
@@ -95,7 +95,7 @@ nav.visited {
     color: rgb(255, 255, 255);
 }
 a {font-size: 20px;
-    margin: 40px;
+    margin: 10px;
 
 }
 a.hover {background-color: rgb(3, 3, 3);}
