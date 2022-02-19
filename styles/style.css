@@ -26,6 +26,7 @@ body {
 
 
 .container {
+    position: relative;
     width: 100%;
     font-family: Unica;
 }
