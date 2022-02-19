@@ -85,7 +85,7 @@ h1 {
 
 }
 nav {position: relative;
-    padding: 40px;
+  
     cursor: pointer;
 }
 nav.visited {
