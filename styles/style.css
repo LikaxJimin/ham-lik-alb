@@ -103,7 +103,7 @@ a {font-size: 20px;
 a.hover {background-color: rgb(3, 3, 3);}
 
 .projects a {
-    margin: 30px;
+ display: block;
 }
 .show-image {
     width: 60%;
