@@ -25,7 +25,7 @@ body {
     margin-top: 20px;
 }
 
-.books img {    position: relative;
+.books {    position: relative;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
