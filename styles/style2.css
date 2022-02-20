@@ -26,6 +26,7 @@ body {
 }
 
 .books {    position: relative;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
    
     margin-top: 40px;
 
