@@ -24,7 +24,14 @@ body {
     padding: 40px;
     margin-top: 20px;
 }
-
+nav {position: relative;
+    margin: 10px;
+  
+    cursor: pointer;
+}
+nav.visited {
+    color: rgb(255, 255, 255);
+}
 .books {    position: relative;
    
     margin-top: 40px;
