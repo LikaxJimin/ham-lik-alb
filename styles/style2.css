@@ -85,13 +85,13 @@ body {
     border-radius: 70px;
     cursor: pointer;
 }
-nav {position: absolute;
+/* nav {position: absolute;
     padding: 30px;
     cursor: pointer;
 }
 nav.visited {
     color: rgb(255, 255, 255);
-}
+} */
 .projects {
     height: 100vh;
     max-height: 100vh;
@@ -115,12 +115,12 @@ nav.visited {
     font-size: 20px;
 }
 
-li a {font-size: 20px;
+ /* a {font-size: 20px;
     margin: 10px;
     
 
 }
-li a.hover {background-color: rgb(3, 3, 3);}
+ a.hover {background-color: rgb(3, 3, 3);} */
 
 
 .list-item {
