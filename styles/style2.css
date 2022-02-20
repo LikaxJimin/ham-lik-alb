@@ -25,7 +25,13 @@ body {
     margin-top: 20px;
 }
 
+img {    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
 
+}
 .cover {
     height: 100vh;
     max-height: 100vh;
