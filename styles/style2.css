@@ -115,12 +115,12 @@ nav.visited {
     font-size: 20px;
 }
 
-a {font-size: 20px;
+li a {font-size: 20px;
     margin: 10px;
     
 
 }
-a.hover {background-color: rgb(3, 3, 3);}
+li a.hover {background-color: rgb(3, 3, 3);}
 
 
 .list-item {
