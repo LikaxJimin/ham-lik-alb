@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: Unica;
-    src: url('../assets/Unica77-Regular.otf');
-}
 
 body {
     font-family: Unica;
@@ -14,7 +10,7 @@ body {
 
 .container {
     width: 100%;
-    font-family: Unica;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
 
