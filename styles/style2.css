@@ -24,14 +24,7 @@ body {
     padding: 40px;
     margin-top: 20px;
 }
-nav {position: relative;
-    margin: 10px;
-  
-    cursor: pointer;
-}
-nav.visited {
-    color: rgb(255, 255, 255);
-}
+
 .books {    position: relative;
    
     margin-top: 40px;
@@ -122,23 +115,12 @@ nav.visited {
     font-size: 20px;
 }
 
-.a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 100px;
-  
-
-}
-
-
-a:hover{ 
-    background-color: rgb(3, 3, 3);
-    cursor: pointer;
+a {font-size: 20px;
+    margin: 10px;
     
+
 }
-a:visited {
-    color: rgb(255, 255, 255);
-}
+a.hover {background-color: rgb(3, 3, 3);}
 
 
 .list-item {
