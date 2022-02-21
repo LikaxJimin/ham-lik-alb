@@ -8,55 +8,6 @@
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/style2.css">
 </head>
-<style>
-    .slider {
-      width: 450px;
-      height: 450px;
-      background-color: yellow;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 0px;
-      text-align: center;
-      overflow: hidden;
-    }
-    .image-container {
-      width: 450px;
-      background-color: pink;
-      height: 450px;
-      clear: both;
-      position: relative;
-      -webkit-transition: left 2s;
-      -moz-transition: left 2s;
-      -o-transition: left 2s;
-      transition: left 2s;
-    }
-    .slide {
-      float: left;
-      margin: 0px;
-      padding: 0px;
-      position: relative;
-    }
-    #slide-1:target ~ .image-container {
-      left: 0px;
-    }
-    #slide-2:target ~ .image-container {
-      left: -500px;
-    }
-    #slide-3:target ~ .image-container {
-      left: -1000px;
-    }
-    .buttons {
-      position: relative;
-      top: 50px;
-    }
-    .buttons a {
-      display: inline-block;
-      height: 15px;
-      width: 15px;
-      border-radius: 50px;
-      background-color: lightgreen;
-    }
-  </style>
 <nav>
     <li><a href="index.html">Home</a></li>
    
@@ -69,28 +20,12 @@
         Books Are Not Boxes - Nomad
     </h1>
 
-    <div class="books">
-    <div class="slider">
-        <span id="slide-1"></span>
-        <span id="slide-2"></span>
- 
-        <div class="image-container">
-          <img src="assets/photo5229102303716425135.jpg" class="slide" width="450px" height="450px"  />
-          <img src="assets/photo5230951467525978638.jpg" class="slide" width="450px" height="450px"  />
-
-        </div>
-        <div class="buttons">
-          <a href="#slide-1"></a>
-          <a href="#slide-2"></a>
-
-        </div>
-      </div>
-
-        
+        <div class="books">
+            <marquee behavior="scroll" direction="left">
                 <img src="assets/photo5229102303716425135.jpg" width="450px" height="450px" alt="">
-                <img src="assets/photo5230951467525978638.jpg" width="450px" height="450px" alt="">
+                <img src="assets/photo5230951467525978638.jpg" alt="">
 
-
+            </marquee>
             <br>
            
             <a href="https://www.youtube.com/watch?v=7VW9CUT2xw8&t=43s">The final outcome *video*</a> <br>
@@ -99,9 +34,7 @@
             <img src="assets/photo5434116777975068323.jpg" width="450px" height="547px" alt="">
 
         </div>
-        
-   
-           
+       
     
 
 
