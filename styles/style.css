@@ -42,7 +42,7 @@ body {
     transform: translate(-30%, 0);
   }
   50% {
-    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.99);
   }
   100% {
     transform: translate(30%, 0);
