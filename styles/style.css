@@ -264,6 +264,9 @@ h1 {
     padding: 10px;
     color: rgb(255, 255, 255);
 }
+.contacts img {
+    margin: 10px;
+}
 nav {position: relative;
     margin: 10px;
   
