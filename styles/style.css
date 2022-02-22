@@ -187,7 +187,8 @@ body {
 
 
 .container {
-    position: relative;
+    position:absolute;
+    left: 50%;
     
     width: 100%;
 
