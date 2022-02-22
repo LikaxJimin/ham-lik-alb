@@ -26,6 +26,7 @@ body {
 }
 
 .words {position: relative;
+    top: 300px;
   color: rgb(0, 0, 0);
   font-size: 70px;
   line-height: 1.5;
