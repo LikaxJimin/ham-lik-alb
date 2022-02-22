@@ -389,14 +389,14 @@ a.hover {background-color: rgb(3, 3, 3);}
         
         z-index:-1;
       }
-      .container__info{
+      .container2__info{
         position:relative;
         
         line-height:1.8;
         transition:ease-in-out .3s;
         opacity:0;
       }
-      .container__location{
+      .container2__location{
         transition-delay: .15s;
       }
       :hover{
@@ -413,7 +413,7 @@ a.hover {background-color: rgb(3, 3, 3);}
           transform:scale(2.8) translate3d(-18%, 0px, 0px);
         }
         
-        .container__info{
+        .container2__info{
           transform:translate3d(-60%,0px,0px);
           opacity:1;
         }
