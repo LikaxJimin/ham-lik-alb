@@ -25,13 +25,13 @@ body {
 }
 
 .words {
-  color: rgb(255, 192, 245);
-  font-size: 50px;
+  color: rgb(250, 215, 250);
+  font-size: 70px;
   line-height: 1.5;
 }
 
 .words span {
-  font-size: 5rem;
+  font-size: 70px;
   display: inline-block;
   animation: move 3s ease-in-out infinite;
 }
