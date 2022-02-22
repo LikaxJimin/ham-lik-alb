@@ -177,6 +177,12 @@ body {
 marquee {
   position: absolute;
   top: 97%;
+  background: #000;
+
+  transition: 0.5s;
+
+  overflow: hidden;
+  opacity: 0.5;
 }
 #myVideo {
     position: fixed;
