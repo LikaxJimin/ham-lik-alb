@@ -88,7 +88,7 @@ section article {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	background: white;
+	background: rgb(250, 202, 250);
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 20px;
