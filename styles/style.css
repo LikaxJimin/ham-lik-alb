@@ -26,7 +26,7 @@ body {
 }
 
 .words {
-  color: rgb(250, 202, 250);
+  color: rgb(92, 160, 223);
   font-size: 70px;
   line-height: 1.5;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -256,7 +256,7 @@ h1 {
     font-size: 10px;
     margin: 10px;
     padding: 10px;
-    color: #000;
+    color: rgb(92, 160, 223);
 }
 nav {position: relative;
     margin: 10px;
