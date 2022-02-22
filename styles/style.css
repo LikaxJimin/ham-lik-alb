@@ -25,7 +25,8 @@ body {
 
 }
 
-.words {
+.words {position: absolute;
+    top: 300px;
   color: rgb(0, 0, 0);
   font-size: 70px;
   line-height: 1.5;
@@ -256,7 +257,7 @@ h1 {
 }
 .contacts {
     position: absolute;
-    top: 400px;
+    top: 10px;
   left: 10px;
 
     font-size: 10px;
