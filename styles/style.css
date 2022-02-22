@@ -8,6 +8,13 @@
 } */
 
 body {
+    font-family: "Archivo Black", sans-serif;
+
+    display: flex;
+    flex-direction: inline;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 
     background-color: black;
     /* background-image: url(../assets/93302083_288032175523360_1118056305865356477_n.jpg) */
@@ -15,13 +22,7 @@ body {
  
     
 
-    font-family: "Archivo Black", sans-serif;
 
-  display: flex;
-  flex-direction: inline;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
 }
 
 .words {
@@ -41,7 +42,7 @@ body {
     transform: translate(-30%, 0);
   }
   50% {
-    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.95);
+    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
   }
   100% {
     transform: translate(30%, 0);
