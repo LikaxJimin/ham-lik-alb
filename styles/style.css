@@ -25,8 +25,8 @@ body {
 }
 
 .words {
-  color: pink;
-  font-size: 0;
+  color: rgb(255, 192, 245);
+  font-size: 50px;
   line-height: 1.5;
 }
 
