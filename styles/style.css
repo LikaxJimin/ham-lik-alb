@@ -2,13 +2,13 @@
     box-sizing: border-box;
 }
 
-@font-face {
+/* @font-face {
     font-family: Unica;
     src: url('../assets/Unica77-Regular.otf');
-}
+} */
 
 body {
-    font-family: Unica;
+
     background-color: black;
     /* background-image: url(../assets/93302083_288032175523360_1118056305865356477_n.jpg) */
 
@@ -41,7 +41,7 @@ body {
     transform: translate(-30%, 0);
   }
   50% {
-    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.95);
   }
   100% {
     transform: translate(30%, 0);
