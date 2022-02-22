@@ -10,8 +10,8 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-    /* display: flex;
-    flex-direction: inline; */
+    display: flex;
+    flex-direction: inline;
     height: 100vh;
     /* justify-content: center;
     align-items: center; */
