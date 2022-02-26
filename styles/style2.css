@@ -34,6 +34,24 @@ body {
     margin-top: 40px;
 
 }
+.about {
+    width: 100%;
+    color: white;
+    position: relative;
+    left: 50%;
+  
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    font-size: 30px;
+    text-align: left;
+    padding: 40px;
+    margin-top: 20px;
+}
 .cover {
     height: 100vh;
     max-height: 100vh;
