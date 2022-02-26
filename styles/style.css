@@ -7,11 +7,13 @@
     src: url('../assets/Unica77-Regular.otf');
 } */
 @font-face{
-    font-family: "name";
+    font-family: "Florentia";
     src: url("../assets/Florentia-Regular-trial.ttf");
 }
 
 body {
+    font-family: "Florentia";
+    src: url("../assets/Florentia-Regular-trial.ttf");
   
 
     display: flex;
@@ -21,7 +23,7 @@ body {
     align-items: center; */
 
     background-color: black;
-    /* background-image: url(../assets/93302083_288032175523360_1118056305865356477_n.jpg) */
+
 
  
     
@@ -86,8 +88,10 @@ body {
 * {
     margin: 0;
     padding: 0;
+    font-family: "Florentia";
+    src: url("../assets/Florentia-Regular-trial.ttf");
     /* background-color: #000; */
-    font-family: poppins, sans-serif;
+
   }
   
   .main-nav {
