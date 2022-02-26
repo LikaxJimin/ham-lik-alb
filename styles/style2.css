@@ -114,7 +114,7 @@ nav.visited {
     color: white;
     font-size: 30px;
     padding: 10px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .header {
     font-size: 20px;
