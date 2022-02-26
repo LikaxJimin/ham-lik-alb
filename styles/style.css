@@ -6,6 +6,10 @@
     font-family: Unica;
     src: url('../assets/Unica77-Regular.otf');
 } */
+@font-face{
+    font-family: "name";
+    src: url("../assets/Florentia-Regular-trial.ttf");
+}
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
