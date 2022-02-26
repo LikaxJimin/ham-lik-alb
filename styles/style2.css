@@ -109,8 +109,8 @@ nav.visited {
 
 .projects {
     display: flex;
-    flex-direction: column;
-    width: 100%;
+
+    width: 50%;
     color: white;
     font-size: 30px;
     padding: 10px;
