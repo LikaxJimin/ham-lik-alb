@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
 }
-
+@font-face{
+    font-family: "name";
+    src: url("../assets/Florentia-Regular-trial.ttf");
+}
 
 body {
     font-family: Unica;
