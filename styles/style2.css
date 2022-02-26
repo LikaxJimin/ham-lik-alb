@@ -108,7 +108,7 @@ nav.visited {
     
 
 .projects {
-    display: inline;
+    display: flex;
     flex-direction: column;
     width: 50%;
     color: white;
