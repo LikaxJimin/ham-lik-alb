@@ -47,9 +47,9 @@ body {
     height: 50%;
     flex-direction: column;
     justify-content: space-around;
-    align-items: left;
+    align-items: center;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     padding: 40px;
     margin-top: 20px;
 }
