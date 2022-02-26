@@ -37,8 +37,9 @@ body {
 .about {
     width: 100%;
     color: white;
-    position: relative;
+    position: absolute;
     left: 50%;
+    top: 400px;
   
     display: flex;
     position: relative;
