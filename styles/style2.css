@@ -110,7 +110,7 @@ nav.visited {
 .projects {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     color: white;
     font-size: 30px;
     padding: 10px;
