@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 @font-face{
-    font-family: "name";
+    font-family: "Florentia";
     src: url("../assets/Florentia-Regular-trial.ttf");
 }
 
@@ -13,8 +13,7 @@ body {
 
 .container {
     width: 100%;
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    color: rgb(255, 255, 255);
+  
     display: flex;
     position: relative;
     width: 100%;
@@ -29,7 +28,7 @@ body {
 }
 
 .books {    position: relative;
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+   
    
     margin-top: 40px;
 
