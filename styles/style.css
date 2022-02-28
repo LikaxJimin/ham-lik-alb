@@ -108,12 +108,12 @@ body {
   .main-nav li {
     list-style: none;
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background: #000;
     transform: rotate(45deg);
     transition: 0.5s;
-    margin: -100px;
+    margin: -50px;
     overflow: hidden;
     opacity: 0.5;
   }
