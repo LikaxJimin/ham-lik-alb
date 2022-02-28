@@ -128,7 +128,7 @@ body {
   }
   
   .main-nav li.item2 {
-    bottom: 35%;
+    bottom: -35%;
     left: 25%;
   }
   
