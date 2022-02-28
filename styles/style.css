@@ -8,12 +8,12 @@
 } */
 @font-face{
   font-family: "s";
-  src: url("../assets/Unica77-Regular.otf");
+  src: url("../assets/Sirius-Book.otf");
 }
 
 body {
-    font-family: "Florentia";
-    src: url("../assets/Florentia-Regular-trial.ttf");
+  font-family: "s";
+  src: url("../assets/Sirius-Book.otf");
   
 
     display: flex;
@@ -88,8 +88,8 @@ body {
 * {
     margin: 0;
     padding: 0;
-    font-family: "Florentia";
-    src: url("../assets/Florentia-Regular-trial.ttf");
+    font-family: "s";
+    src: url("../assets/Sirius-Book.otf");
     /* background-color: #000; */
 
   }
