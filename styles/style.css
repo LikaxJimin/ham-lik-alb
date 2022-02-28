@@ -350,6 +350,10 @@ a.hover {background-color: rgb(3, 3, 3);}
     font-size: 20px;
 
 }
-
+.alternate {
+  position: absolute;
+  width: 50vh;
+  height: 50vh;
+}
   
   
