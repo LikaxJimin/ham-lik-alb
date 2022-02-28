@@ -3,7 +3,7 @@
 }
 @font-face{
     font-family: "s";
-    src: url("../assets/Unica77-Regular.otf");
+    src: url("../assets/Sirius-Book.otf");
 }
 
 body {
@@ -12,14 +12,14 @@ body {
 }
 .header {
     font-family: "s";
-    src: url("../assets/Unica77-Regular.otf");
+    src: url("../assets/Sirius-Book.otf");
 }
 
 .container {
     width: 100%;
     color: white;
     font-family: "Florentia";
-    src: url("../assets/Unica77-Regular.otf");
+    src: url("../assets/Sirius-Book.otf");
   
     display: flex;
     position: relative;
@@ -47,7 +47,7 @@ body {
     left: 50px;
     top: 10px;
     font-family: "Florentia";
-    src: url("../assets/Unica77-Regular.otf");
+    src: url("../assets/Sirius-Book.otf");
   
     display: flex;
     position: relative;
