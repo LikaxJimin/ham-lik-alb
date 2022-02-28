@@ -19,7 +19,7 @@ body {
     height: 100%;
     flex-direction: column;
     justify-content: space-around;
-    align-items: left;
+    align-items:center;
     font-size: 30px;
     text-align: center;
     padding: 0;
