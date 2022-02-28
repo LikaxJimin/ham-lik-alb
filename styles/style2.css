@@ -14,6 +14,8 @@ body {
 .container {
     width: 100%;
     color: white;
+    font-family: "Florentia";
+    src: url("../assets/Florentia-Regular-trial.ttf");
   
     display: flex;
     position: relative;
@@ -40,6 +42,8 @@ body {
     position: relative;
     left: 50px;
     top: 10px;
+    font-family: "Florentia";
+    src: url("../assets/Florentia-Regular-trial.ttf");
   
     display: flex;
     position: relative;
