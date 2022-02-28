@@ -29,7 +29,7 @@ body {
 p {
     margin-top: 10%;
 }
-.nav li{
+.nav {
     position: fixed;
     top: 10px;
 }
