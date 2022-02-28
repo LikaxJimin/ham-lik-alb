@@ -123,18 +123,18 @@ body {
   }
   
   .main-nav li.item1 {
-    top: -25%;
-    left: 20%;
+    top: 0;
+    left: 25%;
   }
   
   .main-nav li.item2 {
-    bottom: -45%;
+    bottom: 0;
     left: 25%;
   }
   
   .main-nav li.item3 {
-    top: 40%;
-    left: 40%;
+    top: 0;
+    left: 50%;
   }
   
   .main-nav li.item4 {
