@@ -14,7 +14,7 @@ body {
 .container {
     width: 100%;
     color: white;
-  
+/*   
     display: flex;
     position: relative;
     width: 100%;
@@ -25,9 +25,41 @@ body {
     font-size: 30px;
     text-align: left;
     padding: 40px;
-    margin-top: 20px;
+    margin-top: 20px; */
 }
 
+.header {
+    display: flex;
+    height: 100vh;
+    min-height: 100vh;
+
+}
+.header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    font-size: 50px;
+    color: rgba(78, 109, 142, 1);
+    padding: 30px;
+}
+.header-title:hover {
+    color: black;
+    transition: all 1s;
+}
+.header-cover {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.header-cover img{
+    width: 100%;
+}
 .books {    position: relative;
    
    
