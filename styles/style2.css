@@ -85,14 +85,14 @@ body {
     padding: 70px;
     margin-top: 20px;
 }
-.cover {
+/* .cover {
     height: 100vh;
     max-height: 100vh;
     display: flex;
     width: 100%;
-}
+} */
 
-.cover-image {
+/* .cover-image {
     padding: 20px;
     width: 100%;
 }
@@ -115,14 +115,14 @@ body {
     color: white;
     font-size: 40px;
     text-align: center;
-}
+} */
 
 
 /* .country-code {
     display: inline 
 } */
 
-.title-city {
+/* .title-city {
     position: relative;
     font-size: 100px;
     text-align: center;
@@ -140,7 +140,7 @@ body {
     color: black;
     border-radius: 70px;
     cursor: pointer;
-}
+} */
 /* nav {position: absolute;
     padding: 30px;
     cursor: pointer;
