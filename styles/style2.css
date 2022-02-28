@@ -29,6 +29,10 @@ body {
 p {
     margin-top: 10%;
 }
+nav {
+    position: fixed;
+    top: 10px;
+}
 
 .container {
     width: 100%;
