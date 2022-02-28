@@ -113,7 +113,7 @@ body {
     background: #000;
     transform: rotate(45deg);
     transition: 0.5s;
-    margin: -50px;
+    margin: -100px;
     overflow: hidden;
     opacity: 0.5;
   }
@@ -124,7 +124,7 @@ body {
   
   .main-nav li.item1 {
     top: 0;
-    left: 25%;
+    left: 0;
   }
   
   .main-nav li.item2 {
