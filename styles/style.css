@@ -278,8 +278,9 @@ h1 {
 }
 .fa-brands {
   position: relative;
- bottom: 10px;
- left: 10px;
+  left: 10px;
+  bottom: 10px;
+
 
   width: 30px;
   color: rgb(255, 255, 255);
