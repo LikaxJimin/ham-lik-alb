@@ -276,16 +276,7 @@ h1 {
     padding: 10px;
     color: rgb(255, 255, 255);
 }
-.fa-brands {
-position: fixed;
-  left: 10px;
-  bottom: 10px;
 
-
-  width: 30px;
-  color: rgb(255, 255, 255);
-
-}
 .contacts img {
     margin: 10px;
 }
