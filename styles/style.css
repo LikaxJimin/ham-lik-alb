@@ -280,7 +280,7 @@ h1 {
   position: absolute;
     bottom: 10px;
   left: 10px;
-  display: inline;
+display: list-item;
   width: 20px;
   color: rgb(255, 255, 255);
 
