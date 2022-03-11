@@ -276,11 +276,38 @@ h1 {
     padding: 10px;
     color: rgb(255, 255, 255);
 }
-.fa-brands {
+.fa-brands fa-instagram{
   position: absolute;
     bottom: 10px;
   left: 10px;
-margin: 5px;
+
+  width: 20px;
+  color: rgb(255, 255, 255);
+
+}
+.fa-brands fa-youtube{
+  position: absolute;
+    bottom: 10px;
+  left: 15px;
+
+  width: 20px;
+  color: rgb(255, 255, 255);
+
+}
+.fa-brands fa-tiktok{
+  position: absolute;
+    bottom: 10px;
+  left: 20px;
+
+  width: 20px;
+  color: rgb(255, 255, 255);
+
+}
+.fa-brands fa-telegram{
+  position: absolute;
+    bottom: 10px;
+  left: 25px;
+
   width: 20px;
   color: rgb(255, 255, 255);
 
