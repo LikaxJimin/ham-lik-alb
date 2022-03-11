@@ -278,7 +278,7 @@ h1 {
 }
 .fa-brands {
   position: relative;
-    bottom: 10px;
+    top: 10px;
   right:  10px;
 
   width: 30px;
