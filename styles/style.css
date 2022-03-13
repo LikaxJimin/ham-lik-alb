@@ -121,6 +121,7 @@ body {
   }
   h1 {
     opacity: 0.5;
+    overflow: visible;
   }
   h1:hover {
     opacity: 1;
