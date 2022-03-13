@@ -119,8 +119,9 @@ body {
     overflow: hidden;
     opacity: 0.5;
   }
-  h1 {    top: 0;
-    left: 0;
+  h1 {position:relative;
+    left: -40px;
+    top: -10px;
   font-size: 30px;
     opacity: 10;
    
@@ -129,8 +130,8 @@ body {
     opacity: 1;
   }
   h2 {position: absolute;
-    left: 60px;
-    top: 80px;
+    left: 80px;
+    top: 100px;
   font-size: 30px;
     opacity: 10;
 
