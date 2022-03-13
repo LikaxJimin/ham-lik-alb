@@ -122,8 +122,8 @@ body {
   h1 {position: absolute;
     left: -40px;
   font-size: 30px;
-    opacity: 2;
-    overflow: visible;
+    opacity: 10;
+   
   }
   h1:hover {
     opacity: 1;
