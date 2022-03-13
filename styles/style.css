@@ -129,6 +129,13 @@ body {
   h1:hover {
     opacity: 1;
   }
+  h2 {position: absolute;
+    left: -20px;
+    top: -10px;
+  font-size: 30px;
+    opacity: 10;
+
+  }
   .main-nav li:hover {
     opacity: 1;
 
