@@ -130,8 +130,8 @@ body {
     opacity: 1;
   }
   h2 {position: absolute;
-    left: -20px;
-    top: -10px;
+    left: 20px;
+    top: 40px;
   font-size: 30px;
     opacity: 10;
 
