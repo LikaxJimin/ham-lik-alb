@@ -129,13 +129,13 @@ body {
  
   h2 {position: absolute;
     left: 100px;
-    top: 130px;
+    top: 120px;
   font-size: 30px;
     opacity: 10;
 
   }
   h3 {position: absolute;
-    left: 200px;
+    left: 220px;
     top: -20px;
   font-size: 30px;}
   
