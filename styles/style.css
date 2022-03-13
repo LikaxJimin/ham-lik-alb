@@ -120,8 +120,8 @@ body {
     opacity: 0.5;
   }
   h1 {position: absolute;
-    left: -10px;
-  font-size: 20px;
+    left: -20px;
+  font-size: 30px;
     opacity: 1;
     overflow: visible;
   }
