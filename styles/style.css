@@ -119,9 +119,15 @@ body {
     overflow: hidden;
     opacity: 0.5;
   }
-  
+  h1 {
+    opacity: 0.5;
+  }
+  h1:hover {
+    opacity: 1;
+  }
   .main-nav li:hover {
     opacity: 1;
+
   }
   
   .main-nav li.item1 {
