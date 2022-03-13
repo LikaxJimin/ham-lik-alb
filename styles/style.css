@@ -121,6 +121,7 @@ body {
   }
   h1 {position: absolute;
     left: -40px;
+    top: -20px;
   font-size: 30px;
     opacity: 10;
    
