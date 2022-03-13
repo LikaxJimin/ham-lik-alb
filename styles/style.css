@@ -227,6 +227,12 @@ marquee {
     width: 100%;
   
 }
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .cover-image img {
     width: 100%; 
