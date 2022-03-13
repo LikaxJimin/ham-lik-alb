@@ -126,9 +126,7 @@ body {
     opacity: 1;
    
   }
-  h1:hover {
-    opacity:  0.5;
-  }
+ 
   h2 {position: absolute;
     left: 100px;
     top: 130px;
