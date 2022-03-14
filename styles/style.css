@@ -23,7 +23,7 @@ body {
     align-items: center; */
 
     background-color: black;
-
+    background-image: linear-gradient(to right, #ee7401, #ff2ab8,#2ab3ff,  #9900ff);
 
  
     
@@ -93,9 +93,9 @@ body {
 
 
   } */
-  body {
-   background-image: linear-gradient(to right, #ee7401, #ff2ab8,#2ab3ff,  #9900ff);
-      /* background-image: url(../assets/IMG_4130.JPG) } */}
+
+ 
+      /* background-image: url(../assets/IMG_4130.JPG) } */
   /* .main-nav {
   
     position: relative;
