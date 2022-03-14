@@ -131,7 +131,7 @@ body {
     align-items: center;
   }
   
-  IMG {
+  .wrapper IMG {
     z-index: 1;
     grid-column: span 2;
     max-width: 100%;
