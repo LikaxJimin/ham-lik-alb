@@ -118,7 +118,7 @@ body {
  
     flex-grow: 1;
     margin: auto;
-    margin-bottom: 70px;
+
     max-width: 1200px;
     /* max-height: 1200px; */
     
@@ -136,7 +136,7 @@ body {
     grid-column: span 2;
     max-width: 100%;
     /* margin-bottom: -52%; */
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(25% 0%, 50% 25%, 25% 50%, 0% 25%);
     transform: scale(1);
     transition: all .25s;
     
