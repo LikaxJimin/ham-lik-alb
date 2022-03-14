@@ -114,7 +114,7 @@ body {
 
   .wrapper {
     position: relative;
-    top: 5%;
+    top: -20%;
  
     flex-grow: 1;
     margin: auto;
