@@ -116,7 +116,7 @@ body {
     position: relative;
     top: 20%;
  
-    /* flex-grow: 1; */
+    flex-grow: 1;
     margin: auto;
 
     max-width: 1200px;
