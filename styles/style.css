@@ -138,7 +138,7 @@ body {
 
  
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    transform: scale(1);
+    transform: scale(3);
     transition: all .25s;
     
 
