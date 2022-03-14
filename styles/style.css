@@ -133,8 +133,8 @@ margin-left: 20%;
   }
   
   .wrapper img {
-    z-index: 3;
-    grid-column: span 2;
+    z-index: 1;
+    grid-column: span 5;
     max-width: 100%;
 
  
