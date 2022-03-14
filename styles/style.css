@@ -365,7 +365,9 @@ margin-bottom: 40px;
     padding: 10px;
   color: rgb(255, 255, 255);
 }
-.flag-icon {
+.flag-icon {position: absolute;
+  bottom: 10px;
+  left: 10px;
   float: right;
   width: 10%;
   padding: 5px;
