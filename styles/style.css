@@ -118,6 +118,7 @@ body {
  
     flex-grow: 1;
     margin: auto;
+    margin-bottom: 20px;
     max-width: 1200px;
     /* max-height: 1200px; */
     
