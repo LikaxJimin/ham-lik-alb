@@ -104,20 +104,14 @@ body {
     transform: translate(-50%, -50%);
     margin: 0;
     padding: 0;
-    width: 600px;
-  
+    /* width: 600px; */
+    padding: 0 6px;
+  float: left;
+  width: 24.99999%;
     height: 150px;
     
   }
-  @media (max-width: 600px) {
-    [class*="main-nav "] {
-      width: 50%;
-    }
-  }
-  
-  @media (min-width: 601px) {
-  
-  }
+
 
     /* For mobile phones: */
   
