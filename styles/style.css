@@ -271,10 +271,12 @@ marquee {
 
 
 .container {
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    position:absolute;
+    left: 0%;
+    top: 30%;
+    
+    width: 100%;
+
 }
 
 
