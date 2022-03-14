@@ -115,6 +115,7 @@ body {
   .wrapper {
     position: relative;
     top: 20%;
+    left: 45%;
  
     flex-grow: 1;
     margin: auto;
