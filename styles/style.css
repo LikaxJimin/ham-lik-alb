@@ -16,7 +16,7 @@ body {
   src: url("../assets/Sirius-Book.otf");
   
 
-    display: grid;
+    display: block;
     flex-direction: inline;
     height: 100vh;
     /* justify-content: center;
