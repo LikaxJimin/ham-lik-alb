@@ -365,7 +365,7 @@ margin-bottom: 40px;
     padding: 10px;
   color: rgb(255, 255, 255);
 }
-.flag-icon {
+.flag-icon flag-icon-arm{
   position: absolute;
   top: 10px;
   right: 10px;
@@ -374,9 +374,16 @@ margin-bottom: 40px;
   margin: 5px;
     padding: 10px;
 }
-.flag-icon img {
-  display: inline-block;
+.flag-icon flag-icon-rus{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+
+  
+  margin: 5px;
+    padding: 10px;
 }
+
 .contacts img {
     margin: 10px;
 }
