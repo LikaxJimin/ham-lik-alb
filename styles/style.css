@@ -121,7 +121,7 @@ body {
  
     flex-grow: 1;
     margin: auto;
-
+    grid-auto-flow: column;
 
     max-width: 1200px;
     /* max-height: 1200px; */
@@ -130,7 +130,7 @@ body {
     grid-template-columns: repeat(8, 1fr);
     /* grid-template-rows: repeat(4, 1fr); */
     /* grid-gap: 2vmin; */
-    gap: 30px;
+
     
    
   }
