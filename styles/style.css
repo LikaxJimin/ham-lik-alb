@@ -96,21 +96,21 @@ body {
   body {
    background-image: linear-gradient(to right, #ee7401, #ff2ab8,#2ab3ff,  #9900ff);
       /* background-image: url(../assets/IMG_4130.JPG) } */}
-  .main-nav {
+  /* .main-nav {
   
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-    padding: 0;
+    padding: 0; */
     /* width: 600px; */
-    padding: 10px;
+    /* padding: 10px;
   float: left;
-  width: 40.99999%;
-    /* height: 150px; */
+  width: 40.99999%; */
+    /* height: 150px; }*/
     
-  }
+  
 
   .wrapper {
     position: relative;
