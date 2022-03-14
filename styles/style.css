@@ -115,7 +115,8 @@ body {
   .wrapper {
     position: relative;
     top: 20%;
-    right: -20%;
+    justify-items: center;
+    align-items: center;
  
     flex-grow: 1;
     margin: auto;
@@ -128,8 +129,7 @@ body {
     /* grid-template-rows: repeat(4, 1fr); */
     /* grid-gap: 2vmin; */
     
-    justify-items: center;
-    align-items: center;
+   
   }
   
   .wrapper img {
