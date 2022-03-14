@@ -123,6 +123,7 @@ body {
     grid-template-columns: repeat(8, 1fr);
     /* grid-template-rows: repeat(4, 1fr);
     grid-gap: 2vmin; */
+    grid-gap: 2vmin;
     justify-items: center;
     align-items: center;
   }
