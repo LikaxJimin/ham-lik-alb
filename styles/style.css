@@ -117,7 +117,7 @@ body {
     flex-grow: 1;
     margin: auto;
     max-width: 1200px;
-    max-height: 1200px;
+    /* max-height: 1200px; */
     
     display: grid;
     grid-template-columns: repeat(8, 1fr);
