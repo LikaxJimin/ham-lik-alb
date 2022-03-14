@@ -130,6 +130,7 @@ body {
     grid-template-columns: repeat(8, 1fr);
     /* grid-template-rows: repeat(4, 1fr); */
     /* grid-gap: 2vmin; */
+    gap: 20px;
     
    
   }
@@ -138,7 +139,7 @@ body {
     z-index: 1;
     grid-column: span 2;
     max-width: 100%;
-    gap: 20px;
+  
    
 
  
