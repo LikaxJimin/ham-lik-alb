@@ -122,6 +122,7 @@ body {
     flex-grow: 1;
     margin: auto;
     grid-auto-flow: column;
+    margin-left: 5%;
 
     /* max-width: 1200px; */
     /* max-height: 1200px; */
