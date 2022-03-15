@@ -9,6 +9,7 @@
 body {
   
     background-color: black;
+    background-image: linear-gradient(to right, #ee7401, #ff2ab8,#2ab3ff,  #9900ff);
 }
 .header {
     font-family: "s";
