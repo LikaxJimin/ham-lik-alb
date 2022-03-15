@@ -58,7 +58,10 @@ p {
 }
 h1{
    padding-top: 40px;
-   background: linear-gradient(to right, #ee7401, #ff2ab8,#2ab3ff,  #9900ff);;
+   background: -webkit-linear-gradient(to right, #ee7401, #ff2ab8,#2ab3ff,  #9900ff);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
 
 }
 .books {    position: relative;
