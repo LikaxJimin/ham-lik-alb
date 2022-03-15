@@ -365,13 +365,17 @@ margin-bottom: 40px;
     padding: 10px;
   color: rgb(255, 255, 255);
 }
-.flag-icon {flex-direction: column;
+.flag-icon {flex-direction: column;}
 
 
-  
-
-
+.flags {
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
+
+
+
 
 
 .contacts img {
