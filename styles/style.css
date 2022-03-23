@@ -560,7 +560,7 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
-flex-direction: column-reverse;
+flex-direction: row;
 
 
   /* max-width: 1200px; */
