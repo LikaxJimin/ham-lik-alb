@@ -945,9 +945,9 @@ marquee {
 .container {
     position:absolute;
   
-    top: 30%;
+  
     margin: auto;
-   
+   margin-top:30%;
     width: 100%;
     height:50% ;
     margin: 0 auto;
