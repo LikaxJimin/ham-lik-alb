@@ -576,14 +576,23 @@ body {
     flex-direction: row;
   
   }
-}
+} @media only screen and (max-width: 700px) {
+  .shape {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 3.25rem;
+    margin: 20px;
+    position: relative;
+    width: 3.25rem;
+  }
 
 .shape {
   align-items: center;
   justify-content: center;
   display: flex;
   height: 3.25rem;
-  margin: 40px;
+  margin: 50px;
   position: relative;
   width: 3.25rem;
 }
