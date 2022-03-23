@@ -570,14 +570,6 @@ flex-direction: row;
   height: 100vh;
   width: 100vw;
 }
-@media only screen and (max-width: 500px) {
-  html,
-body {
-    flex-direction: row;
-  
-  }
-}
-
 .shape {
   align-items: center;
   justify-content: center;
@@ -588,6 +580,25 @@ body {
   position: relative;
   width: 3.25rem;
 }
+@media only screen and (max-width: 500px) {
+  html,
+body {
+    flex-direction: row;
+  
+  }
+  .shape {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 3.25rem;
+    margin: 10px;
+  
+    position: relative;
+    width: 3.25rem;
+  }
+}
+
+
 .shape > * {
   -webkit-animation-duration: 6s;
           animation-duration: 6s;
