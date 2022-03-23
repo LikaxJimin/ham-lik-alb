@@ -699,13 +699,10 @@ body {
 
 }
 a {
-  color: rgb(255, 255, 255);
-  font-family: "s";
-  src: url("../assets/Sirius-Book.otf");
+  color: red;
+  font-family: helvetica;
   text-decoration: none;
   text-transform: uppercase;
-
-
 }
 
 
