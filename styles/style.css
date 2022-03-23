@@ -580,7 +580,7 @@ flex-direction: row;
   position: relative;
   width: 3.25rem;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   html,
 body {
     flex-direction: row;
