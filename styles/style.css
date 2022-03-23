@@ -17,7 +17,7 @@ body {
   
 
     display: flex;
-    flex-direction: inline;
+    flex-direction: row;
     height: 100vh;
     /* justify-content: center;
     align-items: center; */
