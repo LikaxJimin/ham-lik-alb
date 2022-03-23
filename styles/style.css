@@ -947,12 +947,15 @@ marquee {
   
     top: 30%;
     margin: auto;
-    width: 100%;
+   
+    width: 400px;
+    margin: 0 auto;
     flex-direction: row;
+
    
 display: flex;  
 -webkit-flex-direction: row; 
-flex-direction: row; 
+
     
 
 }
