@@ -574,7 +574,7 @@ flex-direction: row;
   html,
 body {
     flex-direction: row;
-    font-size: 6vw;
+  
   }
 }
 
@@ -602,12 +602,12 @@ body {
 .shape:nth-child(1) .shape-l-big {
   -webkit-animation-name: morph-1;
           animation-name: morph-1;
-  background: #c5cae9;
+  background: #ffb87e;
 }
 .shape:nth-child(1) .shape-l-med {
   -webkit-animation-name: morph-2;
           animation-name: morph-2;
-  background: #3f51b5;
+  background: #f534b4;
 }
 .shape:nth-child(1) .shape-l-small {
   -webkit-animation-name: morph-3;
@@ -616,12 +616,12 @@ body {
 .shape:nth-child(2) .shape-l-big {
   -webkit-animation-name: morph-4;
           animation-name: morph-4;
-  background: #ffecb3;
+  background: #fa9dde;
 }
 .shape:nth-child(2) .shape-l-med {
   -webkit-animation-name: morph-5;
           animation-name: morph-5;
-  background: #ffc107;
+  background: #b007ff;
 }
 .shape:nth-child(2) .shape-l-small {
   -webkit-animation-name: morph-6;
@@ -630,12 +630,12 @@ body {
 .shape:nth-child(3) .shape-l-big {
   -webkit-animation-name: morph-7;
           animation-name: morph-7;
-  background: #ffccbc;
+  background: #bcf7ff;
 }
 .shape:nth-child(3) .shape-l-med {
   -webkit-animation-name: morph-8;
           animation-name: morph-8;
-  background: #ff5722;
+  background: #2d07d4;
 }
 .shape:nth-child(3) .shape-l-small {
   -webkit-animation-name: morph-9;
