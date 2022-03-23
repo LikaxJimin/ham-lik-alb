@@ -699,10 +699,13 @@ body {
 
 }
 a {
-  color: red;
+  color: rgb(255, 255, 255);
   font-family: helvetica;
   text-decoration: none;
 
+}
+a:hover {
+color: linear-gradient(to right, #ee7401, #ff2ab8,#2ab3ff,  #9900ff);
 }
 
 
