@@ -692,10 +692,11 @@ body {
 .shape-text {
   display: block;
   color: #f1f1f1;
-  font-family: "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-family: "s";
+  src: url("../assets/Sirius-Book.otf");
   font-size: 0.5rem;
   text-align: center;
-  text-transform: uppercase;
+
 }
 
 
