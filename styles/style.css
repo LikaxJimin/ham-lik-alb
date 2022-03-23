@@ -781,7 +781,7 @@ body {
     
   
 
-  .wrapper {
+  /* .wrapper {
     position: relative;
     top: 20%;
     justify-content: center;
@@ -793,13 +793,11 @@ body {
     grid-auto-flow: column;
     margin-left: 10%;
 
-    /* max-width: 1200px; */
-    /* max-height: 1200px; */
+
     
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    /* grid-template-rows: repeat(4, 1fr); */
-    /* grid-gap: 2vmin; */
+
 
     
    
@@ -816,10 +814,10 @@ body {
  
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
     transform: scale(2);
-    /* transition: all .25s; */
+
     
 
-    }
+    } */
  
     
     /* For mobile phones: */
