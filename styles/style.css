@@ -948,6 +948,7 @@ marquee {
     top: 30%;
     margin: auto;
     width: 100%;
+    flex-direction: row;
     
 
 }
