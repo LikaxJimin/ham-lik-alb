@@ -555,7 +555,21 @@ body {
 }
 
 html,
+body {
+  font-size: 8vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+flex-direction: row;
 
+
+  /* max-width: 1200px; */
+  /* max-height: 1200px; */
+  
+
+  height: 100vh;
+  width: 100vw;
+}
 .shape {
   align-items: center;
   justify-content: center;
@@ -985,16 +999,7 @@ margin-bottom: 40px;
   
     color: rgb(255, 255, 255);
 } */
-.contacts {
-    position: absolute;
-    top: 10px;
-  left: 10px;
 
-    font-size: 17px;
-    margin: 5px;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-}
 /* .fa-brands {
   position: absolute;
   bottom: 10px;
