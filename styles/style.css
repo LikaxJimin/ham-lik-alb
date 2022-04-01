@@ -964,25 +964,7 @@ marquee {
 
 
 
-.container1 {
-    position:absolute;
-  
-  
-   
-   margin-top:30%;
-   margin-left: 20px;
-    width: 100%;
-    height:50% ;
-    margin: 0 auto;
-    flex-direction: row;
 
-   
-display: flex;  
--webkit-flex-direction: row; 
-
-    
-
-}
 
 
 /*  */
