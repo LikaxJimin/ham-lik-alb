@@ -599,118 +599,16 @@ body {
 }
 
 
-.shape > * {
-  -webkit-animation-duration: 6s;
-          animation-duration: 6s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
-          animation-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.shape:nth-child(1) .shape-l-big {
-  -webkit-animation-name: morph-1;
-          animation-name: morph-1;
-  background: #ffb87e;
-}
-.shape:nth-child(1) .shape-l-med {
-  -webkit-animation-name: morph-2;
-          animation-name: morph-2;
-  background: #f534b4;
-}
-.shape:nth-child(1) .shape-l-small {
-  -webkit-animation-name: morph-3;
-          animation-name: morph-3;
-}
-.shape:nth-child(2) .shape-l-big {
-  -webkit-animation-name: morph-4;
-          animation-name: morph-4;
-  background: #fa9dde;
-}
-.shape:nth-child(2) .shape-l-med {
-  -webkit-animation-name: morph-5;
-          animation-name: morph-5;
-  background: #b007ff;
-}
-.shape:nth-child(2) .shape-l-small {
-  -webkit-animation-name: morph-6;
-          animation-name: morph-6;
-}
-.shape:nth-child(3) .shape-l-big {
-  -webkit-animation-name: morph-7;
-          animation-name: morph-7;
-  background: #bcf7ff;
-}
-.shape:nth-child(3) .shape-l-med {
-  -webkit-animation-name: morph-8;
-          animation-name: morph-8;
-  background: #2d07d4;
-}
-.shape:nth-child(3) .shape-l-small {
-  -webkit-animation-name: morph-9;
-          animation-name: morph-9;
-}
-.shape:nth-child(4) .shape-l-big {
-  -webkit-animation-name: morph-10;
-          animation-name: morph-10;
-  background: #cfd8dc;
-}
-.shape:nth-child(4) .shape-l-med {
-  -webkit-animation-name: morph-1;
-          animation-name: morph-1;
-  background: #607d8b;
-}
-.shape:nth-child(4) .shape-l-small {
-  -webkit-animation-name: morph-4;
-          animation-name: morph-4;
-}
-.shape:nth-child(5) .shape-l-big {
-  -webkit-animation-name: morph-8;
-          animation-name: morph-8;
-  background: #dcedc8;
-}
-.shape:nth-child(5) .shape-l-med {
-  -webkit-animation-name: morph-5;
-          animation-name: morph-5;
-  background: #8bc34a;
-}
-.shape:nth-child(5) .shape-l-small {
-  -webkit-animation-name: morph-2;
-          animation-name: morph-2;
-}
 
-.shape-l-big {
-  height: 98%;
-  width: 98%;
-}
-
-.shape-l-med {
-  height: 87.5%;
-  width: 87.5%;
-}
-
-.shape-l-small {
-  align-items: center;
-  background: #212121;
-  display: flex;
-  justify-content: center;
-  height: 75%;
-  width: 75%;
-}
-
-.shape-text {
-  display: block;
-  color: #f1f1f1;
-  font-family: "s";
-  src: url("../assets/Sirius-Book.otf");
-  font-size: 0.5rem;
-  text-align: center;
+a {
+  color: rgb(255, 255, 255);
+  font-family: helvetica;
+  text-decoration: none;
 
 }
-
+a:hover {
+color: #74ee10;
+}
 
 
 /* .words {position: relative;
