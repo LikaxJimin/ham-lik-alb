@@ -555,22 +555,17 @@ body {
 }
 
 html,
-body {
-  font-size: 8vw;
+
+.shape {
   align-items: center;
   justify-content: center;
   display: flex;
-flex-direction: row;
+  height: 3.25rem;
+  margin: 50px;
 
-
-  /* max-width: 1200px; */
-  /* max-height: 1200px; */
-  
-
-  height: 100vh;
-  width: 100vw;
+  position: relative;
+  width: 3.25rem;
 }
-
 @media only screen and (max-width: 400px) {
   html,
 body {
