@@ -583,9 +583,10 @@ body {
   justify-content: center;
   display: flex;
   height: 3.25rem;
-  margin: 50px;
+  margin: 10px;
+
   position: relative;
-  width: 3.25rem;
+
 }
 .shape > * {
   -webkit-animation-duration: 6s;
