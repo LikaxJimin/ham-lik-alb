@@ -1,18 +1,18 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 /* @font-face {
     font-family: Unica;
     src: url('../assets/Unica77-Regular.otf');
 } */
-@font-face{
+/* @font-face{
   font-family: "s";
   src: url("../assets/Sirius-Book.otf");
-}
+} */
 
 body {
-  font-family: "s";
+  /* font-family: "s";
   src: url("../assets/Sirius-Book.otf");
   
 
@@ -22,7 +22,7 @@ body {
     /* justify-content: center;
     align-items: center; */
 
-    background-color: black;
+    /* background-color: black; */ 
     background-image: linear-gradient(to right, #ee7401, #ff2ab8,#2ab3ff,  #9900ff);
 
  
@@ -963,7 +963,7 @@ marquee {
   } */
 
 
-
+/* 
 .container {
     position:absolute;
   
@@ -982,11 +982,11 @@ display: flex;
 
     
 
-}
+} */
 
 
 /*  */
-h1 {
+/* h1 {
   
     position: relative;
   
@@ -998,7 +998,7 @@ margin-bottom: 40px;
    
   
     color: rgb(255, 255, 255);
-}
+} */
 .contacts {
     position: absolute;
     top: 10px;
@@ -1009,7 +1009,7 @@ margin-bottom: 40px;
     padding: 10px;
     color: rgb(255, 255, 255);
 }
-.fa-brands {
+/* .fa-brands {
   position: absolute;
   bottom: 10px;
   left: 10px;
@@ -1027,15 +1027,13 @@ margin-bottom: 40px;
   right: 20px;
   margin: 5px;
 
-}
+} */
 
 
 
 
 
-.contacts img {
-    margin: 10px;
-}
+
 /* nav {position: relative;
     margin: 10px;
   
