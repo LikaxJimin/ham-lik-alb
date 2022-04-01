@@ -1,18 +1,18 @@
-/* * {
+* {
     box-sizing: border-box;
-} */
+}
 
 /* @font-face {
     font-family: Unica;
     src: url('../assets/Unica77-Regular.otf');
 } */
-/* @font-face{
+@font-face{
   font-family: "s";
   src: url("../assets/Sirius-Book.otf");
-} */
+}
 
 body {
-  /* font-family: "s";
+  font-family: "s";
   src: url("../assets/Sirius-Book.otf");
   
 
@@ -22,7 +22,7 @@ body {
     /* justify-content: center;
     align-items: center; */
 
-    /* background-color: black; */ 
+    background-color: black;
     background-image: linear-gradient(to right, #ee7401, #ff2ab8,#2ab3ff,  #9900ff);
 
  
@@ -570,35 +570,23 @@ flex-direction: row;
   height: 100vh;
   width: 100vw;
 }
+@media all and (min-width: 420px) {
+  html,
+body {
+    flex-direction: row;
+  
+  }
+}
+
 .shape {
   align-items: center;
   justify-content: center;
   display: flex;
   height: 3.25rem;
   margin: 50px;
-
   position: relative;
   width: 3.25rem;
 }
-@media only screen and (max-width: 400px) {
-  html,
-body {
-    flex-direction: row;
-  
-  }
-  .shape {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: 3.25rem;
-    margin: 10px;
-  
-    position: relative;
-
-  }
-}
-
-
 .shape > * {
   -webkit-animation-duration: 6s;
           animation-duration: 6s;
@@ -717,7 +705,7 @@ a {
 
 }
 a:hover {
-color: #74ee10;
+color: #70e213;
 }
 
 
@@ -964,7 +952,7 @@ marquee {
 
 
 
-.container1 {
+.container {
     position:absolute;
   
   
@@ -986,7 +974,7 @@ display: flex;
 
 
 /*  */
-/* h1 {
+h1 {
   
     position: relative;
   
@@ -998,7 +986,7 @@ margin-bottom: 40px;
    
   
     color: rgb(255, 255, 255);
-} */
+}
 .contacts {
     position: absolute;
     top: 10px;
@@ -1009,7 +997,7 @@ margin-bottom: 40px;
     padding: 10px;
     color: rgb(255, 255, 255);
 }
-/* .fa-brands {
+.fa-brands {
   position: absolute;
   bottom: 10px;
   left: 10px;
@@ -1027,13 +1015,15 @@ margin-bottom: 40px;
   right: 20px;
   margin: 5px;
 
-} */
+}
 
 
 
 
 
-
+.contacts img {
+    margin: 10px;
+}
 /* nav {position: relative;
     margin: 10px;
   
