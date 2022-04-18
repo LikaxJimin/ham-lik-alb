@@ -6,14 +6,10 @@
     font-family: Unica;
     src: url('../assets/Unica77-Regular.otf');
 } */
-@font-face{
-  font-family: "s";
-  src: url("../assets/Sirius-Book.otf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 body {
-  font-family: "s";
-  src: url("../assets/Sirius-Book.otf");
+
   
 
     display: flex;
