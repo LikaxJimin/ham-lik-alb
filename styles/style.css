@@ -3,12 +3,17 @@
 }
 
 /* @font-face {
-  font-family: "Raleway", sans-serif;
-  src: url("../assets/Raleway/Raleway-VariableFont_wght.ttf")
+    font-family: Unica;
+    src: url('../assets/Unica77-Regular.otf');
 } */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@font-face{
+  font-family: "s";
+  src: url("../assets/Sirius-Book.otf");
+}
 
-body {font-family: 'Raleway', sans-serif;
+body {
+  font-family: "s";
+  src: url("../assets/Sirius-Book.otf");
   
 
     display: flex;
