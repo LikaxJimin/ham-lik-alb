@@ -6,7 +6,7 @@
   font-family: "Raleway", sans-serif;
   src: url("../assets/Raleway/Raleway-VariableFont_wght.ttf")
 } */
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 body {
   
