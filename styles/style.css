@@ -2,14 +2,12 @@
     box-sizing: border-box;
 }
 
-/* @font-face {
-    font-family: Unica;
-    src: url('../assets/Unica77-Regular.otf');
-} */
-/* @font-face{
-  font-family: "s";
-  src: url("../assets/Sirius-Book.otf");
-} */
+@font-face {
+  font-family: "Raleway", sans-serif;
+ 
+  src: url("../assets/Raleway/Raleway-VariableFont_wght.ttf")
+}
+
 
 body {font-family: "Raleway", sans-serif;
  
