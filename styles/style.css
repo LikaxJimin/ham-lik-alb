@@ -6,14 +6,14 @@
     font-family: Unica;
     src: url('../assets/Unica77-Regular.otf');
 } */
-@font-face{
+/* @font-face{
   font-family: "s";
   src: url("../assets/Sirius-Book.otf");
-}
+} */
 
 body {
-  font-family: "s";
-  src: url("../assets/Sirius-Book.otf");
+  /* font-family: "s";
+  src: url("../assets/Sirius-Book.otf"); */
   
 
     display: flex;
