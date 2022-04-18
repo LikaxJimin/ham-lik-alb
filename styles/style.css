@@ -12,8 +12,8 @@
 } */
 
 body {font-family: "Raleway", sans-serif;
-  /* font-family: "s"; 
-  src: url("../assets/Sirius-Book.otf"); */
+ 
+  src: url("../assets/Raleway/Raleway-VariableFont_wght.ttf");
   
 
     display: flex;
