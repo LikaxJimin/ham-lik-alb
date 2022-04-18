@@ -579,7 +579,8 @@ body {
   justify-content: center;
   display: flex;
   height: 3.25rem;
-  margin-left: 50px;
+  margin: 50px;
+  padding-left: 50px;
 
   position: relative;
   width: 3.25rem;
