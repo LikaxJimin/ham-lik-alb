@@ -17,15 +17,49 @@
   
 </nav>
 <style>
-    body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif;  background-image: linear-gradient(to right, #ee7401, #ff2ab8,#2ab3ff,  #9900ff);}
+    body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif;  background-image: linear-gradient(to right, #082404, #336814,#117911,  #26ce9c);}
     @media only screen and (max-width: 700px) {
-        .iframe {
-            width:470; height:260; src:url(://www.youtube.com/embed/vDliwBGQoyI?controls=1)" title="YouTube video player" frameborder="0" allow: accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-
-        }
+      
         
 
     }
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
 </style>
   
 <body>
@@ -36,6 +70,12 @@
             
               padding: 10px;
             color: rgb(255, 255, 255);"></i></a> 
+            
+          
+            
+           
+            
+            
     
     <!-- w3-content defines a container for fixed size centered content, 
     and is wrapped around the whole page content, except for the footer in this example -->
@@ -43,7 +83,7 @@
     
     <!-- Header -->
     <header class="w3-container w3-center w3-padding-32"> 
-      <h1><b>Books</b></h1>
+  
      
     </header>
     
@@ -54,7 +94,34 @@
     <div class="w3-col">
       <!-- Blog entry -->
       <div class="w3-card-4 w3-margin w3-white">
-        <img src="assets/photo5235455067153348972.jpg" alt="Nature" style="width:100%">
+        <div class="slideshow-container">
+          <div class="mySlides1">
+            <img src="assets/photo5229102303716425135.jpg" style="width:100%">
+          </div>
+        
+          <div class="mySlides1">
+            <img src="assets/photo1650284532.jpeg" style="width:100%">
+          </div>
+        
+          <div class="mySlides1">
+            <img src="assets/photo1650284533.jpeg" style="width:100%">
+          </div>
+          <div class="mySlides1">
+            <img src="assets/photo1650284534.jpeg" style="width:100%">
+          </div>
+          <div class="mySlides1">
+            <img src="assets/photo1650284535.jpeg" style="width:100%">
+          </div>
+          <div class="mySlides1">
+            <img src="assets/photo1650284536.jpeg" style="width:100%">
+          </div>
+        
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+        
+        
+        
         <div class="w3-container">
           <h3><b> Books Are Not Boxes - Nomad</b></h3>
         
@@ -65,19 +132,56 @@
             <h5>The process of making </h5>
             <iframe width="470" height="260" controls="controls" src="https://www.youtube.com/embed/vDliwBGQoyI?controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
-          <div class="w3-row">
-            <div class="w3-col m8 s12">
-              <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+         
             </div>
            
           </div>
         </div>
       </div>
       <hr>
+      <hr>
+      <hr>
     
       <!-- Blog entry -->
       <div class="w3-card-4 w3-margin w3-white">
-      <img src="assets/photo5434116777975068323.jpg" alt="Norway" style="width:100%">
+        <div class="slideshow-container">
+            
+     
+            <div class="mySlides2">
+              <img src="assets/photo1650284538.jpeg" style="width:100%">
+            </div>
+          
+            <div class="mySlides2">
+              <img src="assets/photo1650284539.jpeg" style="width:100%">
+            </div>
+          
+            <div class="mySlides2">
+              <img src="assets/photo1650284540.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides2">
+              <img src="assets/photo1650284541.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides2">
+              <img src="assets/photo1650284542.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides2">
+              <img src="assets/photo1650284543.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides2">
+              <img src="assets/photo1650284544.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides2">
+              <img src="assets/photo1650284545.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides2">
+              <img src="assets/photo1650284546.jpeg" style="width:100%">
+            </div>
+          
+          
+            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+          </div>
+        
         <div class="w3-container">
           <h3><b>This to that - The Cat's Paw</b></h3>
           <!-- <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5> -->
@@ -88,17 +192,63 @@
                 found an old movie called <a href="https://www.youtube.com/watch?v=2yjqLAzYlCc">The Cat’s-Paw.</a> in which the main character and the woman he likes are similar
                 to the people in my first picture. So I decided to write scripts from a part of the movie.</p>
           <div class="w3-row">
-            <div class="w3-col m8 s12">
-              <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-            </div>
+           
             
           </div>
         </div>
       </div>
       <hr>
+      <hr>
+      <hr>
            <!-- Blog entry -->
      <div class="w3-card-4 w3-margin w3-white">
-        <img src="assets/image-18-06-20-06-41.jpeg" alt="Norway" style="width:100%">
+      <div class="slideshow-container">
+            
+     
+        <div class="mySlides3">
+          <img src="assets/image-18-06-20-06-41.jpeg" style="width:100%">
+        </div>
+      
+        <div class="mySlides3">
+          <img src="assets/photo1650284547.jpeg" style="width:100%">
+        </div>
+      
+        <div class="mySlides3">
+          <img src="assets/photo1650284548.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides3">
+          <img src="assets/photo1650284549.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides3">
+          <img src="assets/photo1650284550.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides3">
+          <img src="assets/photo1650284551.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides3">
+          <img src="assets/photo1650284552.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides3">
+          <img src="assets/photo1650284553.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides3">
+          <img src="assets/photo1650284554.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides3">
+          <img src="assets/IMG_4142.JPG" style="width:100%">
+        </div>
+        <div class="mySlides3">
+          <img src="assets/IMG_4143.JPG" style="width:100%">
+        </div>
+        <div class="mySlides3">
+          <img src="assets/m2.jpg" style="width:100%">
+        </div>
+      
+      
+        <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+      </div>
+      
           <div class="w3-container">
             <h3><b>Հիշու՞մ ես... <br>( Do you remember...?)</b></h3>
             <!-- <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5> -->
@@ -107,9 +257,146 @@
           <div class="w3-container">
             <p>This is the first book I have made in my life. It contains the process of unforgetting a series of found forgotten objects. The title is written in Armenian because I am Armenian and at the time of the project most of my memories were from there.</p>
             <div class="w3-row">
-              <div class="w3-col m8 s12">
-                <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-              </div>
+            
+              
+            </div>
+          </div>
+        </div>
+        <hr>
+        <hr>
+        <hr>
+
+        <!-- Blog entry -->
+     <div class="w3-card-4 w3-margin w3-white">
+      <div class="slideshow-container">
+            
+     
+        <div class="mySlides4">
+          <img src="assets/5381847.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides4">
+          <img src="assets/con poster draft5.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides4">
+          <img src="assets/timetable poster.jpg" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+      </div>
+      
+          <div class="w3-container">
+            <h3>CONference - PreAbSence (posters)</h3>
+            <!-- <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5> -->
+          </div>
+      
+          <div class="w3-container">
+            <p>For this project, I had to create a fictional conference with its theme and story, then to make 2 posters for it. My theme became Sleep paralysis. I didn’t
+              know much about it, but as it happened to me several times, I became more and more interested in it. If
+              you do not know what sleep paralysis is, then I advise you to read about it, as it is much deeper than you
+              can imagine.</p>
+            <div class="w3-row">
+           
+            </div>
+          </div>
+        </div>
+        <hr>
+        <hr>
+        <hr>
+        <!-- Blog entry -->
+     <div class="w3-card-4 w3-margin w3-white">
+      <div class="slideshow-container">
+            
+     
+        <div class="mySlides5">
+          <img src="assets/photo1650284556.jpeg" style="width:100%">
+        </div>
+      
+        <div class="mySlides5">
+          <img src="assets/photo1650284557.jpeg" style="width:100%">
+        </div>
+      
+        <div class="mySlides5">
+          <img src="assets/photo1650284558.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides5">
+          <img src="assets/photo1650284559.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides5">
+          <img src="assets/photo1650284560.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides5">
+          <img src="assets/photo1650284561.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides5">
+          <img src="assets/photo1650284562.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides5">
+          <img src="assets/photo1650284563.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides5">
+          <img src="assets/photo1650284564.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides5">
+          <img src="assets/photo1650284565.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides5">
+          <img src="assets/photo1650284566.jpeg" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+      </div>
+      
+          <div class="w3-container">
+            <h3>CONference - PreAbSence (notebook)</h3>
+            <!-- <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5> -->
+          </div>
+      
+          <div class="w3-container">
+            <p>This notebook should be kept next to your bed so that after sleep paralysis you can immediately write down in it what exactly happened to you and mark the date.</p>
+            <div class="w3-row">
+          
+              
+            </div>
+          </div>
+        </div>
+        <hr>
+        <hr>
+        <hr>
+        <!-- Blog entry -->
+     <div class="w3-card-4 w3-margin w3-white">
+      <div class="slideshow-container">
+            
+     
+        <div class="mySlides6">
+          <img src="assets/131014081_414868856230642_6826312447320060912_n.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides6">
+          <img src="assets/131389292_689173285324336_4499529656459989167_n.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides6">
+          <img src="assets/131339612_449649136199624_1425047280967001179_n.jpg" style="width:100%">
+        </div>
+        
+        
+        <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+      </div>
+      
+          <div class="w3-container">
+            <h3>This is a RECORD COVER - Alabama sisters</h3>
+            <!-- <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5> -->
+          </div>
+      
+          <div class="w3-container">
+            <p>Working in a group of 3 people we designd a Record Cover for an Album by fictional band. Here you can see the posters for which I was responsible.</p>
+            <div class="w3-row">
+          
               
             </div>
           </div>
@@ -203,5 +490,32 @@
 
 </div>
     </div>
+    <script>
+     let slideIndex = [1,1,1,1,1,1];
+let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+showSlides(1, 3);
+showSlides(1, 4);
+showSlides(1, 5);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+      </script>
+      
+      
 </body>
 </html>
