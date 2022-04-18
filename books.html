@@ -23,7 +23,7 @@
         
 
     }
-.mySlides1, .mySlides2, .mySlides3 {display: none}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4 {display: none}
 img {vertical-align: middle;}
 
 /* Slideshow container */
@@ -259,6 +259,65 @@ img {vertical-align: middle;}
             </div>
           </div>
         </div>
+
+        <!-- Blog entry -->
+     <div class="w3-card-4 w3-margin w3-white">
+      <div class="slideshow-container">
+            
+     
+        <div class="mySlides4">
+          <img src="assets/5381847.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides4">
+          <img src="assets/photo1650284547.jpeg" style="width:100%">
+        </div>
+      
+        <div class="mySlides4">
+          <img src="assets/photo1650284548.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides4">
+          <img src="assets/photo1650284549.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides4">
+          <img src="assets/photo1650284550.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides4">
+          <img src="assets/photo1650284551.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides4">
+          <img src="assets/photo1650284552.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides4">
+          <img src="assets/photo1650284553.jpeg" style="width:100%">
+        </div>
+        <div class="mySlides4">
+          <img src="assets/photo1650284554.jpeg" style="width:100%">
+        </div>
+      
+      
+        <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+      </div>
+      
+          <div class="w3-container">
+            <h3>CONference - PreAbSence</h3>
+            <!-- <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5> -->
+          </div>
+      
+          <div class="w3-container">
+            <p>For this project, I had to create a fictional conference with its theme and story, then to make 2 posters for it. My theme became Sleep paralysis. I didn’t
+              know much about it, but as it happened to me several times, I became more and more interested in it. If
+              you do not know what sleep paralysis is, then I advise you to read about it, as it is much deeper than you
+              can imagine.</p>
+            <div class="w3-row">
+              <div class="w3-col m8 s12">
+                <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
     <!-- END BLOG ENTRIES -->
     </div>
     
@@ -349,11 +408,12 @@ img {vertical-align: middle;}
 </div>
     </div>
     <script>
-     let slideIndex = [1,1,1];
+     let slideIndex = [1,1,1,1];
 let slideId = ["mySlides1", "mySlides2", "mySlides3"]
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
+showSlides(1, 3);
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
