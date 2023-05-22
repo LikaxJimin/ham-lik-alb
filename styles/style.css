@@ -31,7 +31,7 @@ body {
   margin: 15px; /* margin: 20px was off */
   object-position: right top;
   height: 60px;
-  width: auto; /* correct proportions to specified height */
+  width:60px; /* correct proportions to specified height */
   border-radius: 50%; /* makes it a circle */
 }
 @-webkit-keyframes morph-1 {
