@@ -1023,12 +1023,12 @@ margin-bottom: 40px;
 }
 .logo {
   position: absolute;
-  top: 10px;
+  top: 50px;
   right: 20px;
 
   font-size: 19px;
 
-  padding: 15px;
+  padding: 55px;
   color: rgb(255, 255, 255);
 }
 .fa-brands {
