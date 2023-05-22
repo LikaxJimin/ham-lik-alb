@@ -29,7 +29,7 @@ body {
 #logo {
   display: inline-block;
  
-  height: 100px;
+  height: 60px;
   width: auto; /* correct proportions to specified height */
   border-radius: 0%; /* makes it a circle */
 }
