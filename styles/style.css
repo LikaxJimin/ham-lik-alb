@@ -28,7 +28,7 @@ body {
 }
 #logo {
   display: inline-block;
-  margin: 15px; /* margin: 20px was off */
+  margin: 5px; /* margin: 20px was off */
   object-position: top 0 right 10px;
   height: 60px;
   width: auto; /* correct proportions to specified height */
