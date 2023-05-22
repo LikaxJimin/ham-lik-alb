@@ -29,7 +29,7 @@ body {
 #logo {
   display: inline-block;
   margin: 15px; /* margin: 20px was off */
-  object-position: right top;
+  object-position: top 0 right 10px;
   height: 60px;
   width:60px; /* correct proportions to specified height */
   border-radius: 50%; /* makes it a circle */
