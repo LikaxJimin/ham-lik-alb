@@ -27,7 +27,7 @@ body {
 
 }
 #logo {
-  display: inline-block;
+  display: block;
   margin: 15px; /* margin: 20px was off */
   float: right;
   height: 60px;
