@@ -26,6 +26,14 @@ body {
 
 
 }
+#logo {
+  display: inline-block;
+  margin: 15px; /* margin: 20px was off */
+  float: right;
+  height: 60px;
+  width: auto; /* correct proportions to specified height */
+  border-radius: 50%; /* makes it a circle */
+}
 @-webkit-keyframes morph-1 {
   0% {
     -webkit-clip-path: polygon(93% 0, 100% 84%, 13% 100%, 0 11%);
